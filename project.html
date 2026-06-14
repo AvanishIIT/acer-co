@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-meta-title>Acre & Co Project Details</title>
+    <meta name="description" data-meta-description content="Explore Acre & Co project details, amenities, plot sizes, approvals, availability, pricing, gallery, map, and inquiry form.">
+    <link rel="canonical" data-canonical href="https://acreandco.example.com/project.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" data-og-title content="Acre & Co Project Details">
+    <meta property="og:description" data-og-description content="Project details, pricing, availability, gallery, and location.">
+    <meta property="og:image" data-og-image content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" data-twitter-title content="Acre & Co Project Details">
+    <meta name="twitter:description" data-twitter-description content="Project details, pricing, availability, gallery, and location.">
+    <meta name="twitter:image" data-twitter-image content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header solid" data-header>
+      <a class="brand" href="index.html" aria-label="Acre & Co home">
+        <img class="brand-logo" src="assets/logo.png" alt="Acre & Co logo">
+      </a>
+      <button class="menu-toggle" data-menu-toggle aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" data-nav aria-label="Primary navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#branches">Branches</a>
+        <a href="index.html#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <main data-project-page>
+      <section class="project-banner">
+        <img data-project-hero alt="" fetchpriority="high">
+        <div class="project-banner-copy reveal">
+          <p class="eyebrow" data-project-location></p>
+          <h1 data-project-name></h1>
+          <a class="btn primary" href="#inquiry">Enquire Now</a>
+        </div>
+      </section>
+
+      <section class="section project-detail-layout">
+        <article class="detail-main reveal">
+          <p class="eyebrow">Project Details</p>
+          <h2>Premium plots with ready infrastructure.</h2>
+          <p data-project-description></p>
+          <div class="detail-panels">
+            <div>
+              <h3>Amenities</h3>
+              <ul data-project-amenities></ul>
+            </div>
+            <div>
+              <h3>Plot Sizes</h3>
+              <ul data-project-sizes></ul>
+            </div>
+            <div>
+              <h3>Approval Details</h3>
+              <p data-project-approval></p>
+            </div>
+          </div>
+        </article>
+        <aside class="pricing-card glass reveal">
+          <p class="eyebrow">Pricing</p>
+          <h2 data-project-rate></h2>
+          <p data-project-total></p>
+          <span data-project-emi></span>
+        </aside>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>See the community experience.</h2>
+        </div>
+        <div class="gallery-grid" data-gallery></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Available Plots</p>
+          <h2>Choose a plot that fits your plan.</h2>
+        </div>
+        <div class="plot-table-wrap reveal">
+          <table class="plot-table">
+            <thead>
+              <tr>
+                <th>Plot Number</th>
+                <th>Plot Size</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody data-plot-table></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section project-map-contact">
+        <iframe class="map-embed reveal" title="Project location map" loading="lazy" data-project-map></iframe>
+        <form id="inquiry" class="lead-form glass reveal" action="#" data-form>
+          <p class="eyebrow">Inquiry Form</p>
+          <h2>Enquire Now</h2>
+          <label>Name<input type="text" name="name" autocomplete="name" required></label>
+          <label>Phone Number<input type="tel" name="phone" autocomplete="tel" required></label>
+          <label>Email<input type="email" name="email" autocomplete="email" required></label>
+          <label>Interested Plot<input type="text" name="plot" placeholder="Plot number or size"></label>
+          <button class="btn primary" type="submit">Enquire Now</button>
+          <p class="form-note" data-form-note></p>
+        </form>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox hidden>
+      <button data-lightbox-close aria-label="Close gallery">×</button>
+      <img data-lightbox-image alt="Project gallery preview">
+    </div>
+
+    <div class="radio-input social-dock" aria-label="Quick contact links">
+  <a class="label" href="https://wa.me/919042435869" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span class="text">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32" fill="currentColor">
+        <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.5L4 29l7.723-1.813A12.94 12.94 0 0 0 16 28c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10a10.94 10.94 0 0 1-5.39-1.416l-.364-.21-4.588 1.077 1.11-4.468-.22-.37A9.96 9.96 0 0 1 6 15c0-5.523 4.477-10 10-10zm-3.magyars 5.5c-.277 0-.727.104-1.107.52-.38.416-1.45 1.416-1.45 3.453 0 2.037 1.483 4.007 1.69 4.286.207.278 2.883 4.603 7.1 6.27 3.52 1.388 4.235 1.112 4.997 1.043.762-.07 2.456-1.003 2.803-1.973.347-.97.347-1.8.243-1.973-.104-.174-.38-.278-.797-.486-.416-.208-2.456-1.212-2.837-1.35-.38-.138-.658-.208-.935.208-.277.416-1.074 1.35-1.317 1.627-.243.278-.485.312-.9.104-.416-.208-1.756-.648-3.346-2.067-1.237-1.104-2.072-2.468-2.315-2.884-.243-.416-.026-.64.183-.847.187-.186.416-.486.624-.728.208-.243.277-.416.416-.693.138-.278.07-.52-.035-.728-.104-.208-.916-2.26-1.282-3.073-.347-.797-.7-.693-.935-.693z"/>
+      </svg>
+    </span>
+  </a>
+  <a class="label" href="https://www.instagram.com/acre_andco?igsh=MW1jNHY0ejFodjRpbA==" target="_blank" rel="noopener" aria-label="Open Instagram">
+    <span class="text">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+      </svg>
+    </span>
+  </a>
+  <a class="label" href="https://mail.google.com/mail/?view=cm&to=acreandco2025@gmail.com" target="_blank" rel="noopener" aria-label="Send email">
+    <span class="text">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+    </span>
+  </a>
+</div>
+    <div class="mobile-contact-bar">
+      <a href="tel:+919042435869">Call</a>
+      <a href="https://wa.me/919042435869" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="#inquiry">Enquire</a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <a class="brand footer-brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Acre & Co logo"></a>
+          <p>Premium plots, transparent advice, and verified property investment opportunities.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#branches">Branches</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div>
+          <h3>Branch</h3>
+          <a href="index.html#branches">Main Branch Coimbatore</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <a href="tel:+919042435869">+91 9042435869</a>
+          <a href="tel:+919677544243">+91 96775 44243</a>
+          <a href="https://mail.google.com/mail/?view=cm&to=acreandco2025@gmail.com" target="_blank" rel="noopener">Acreandco2025@gmail.com</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Acre &amp; Co. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
