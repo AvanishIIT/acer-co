@@ -1398,6 +1398,18 @@ p {
     padding: 8px 14px;
   }
 
+    .project-filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 18px;
+  }
+
+  .filter-btn {
+    width: 100%;
+    text-align: center;
+  }
+  
   .brand {
     gap: 8px;
     font-size: 0.88rem;
