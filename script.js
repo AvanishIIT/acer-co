@@ -15,13 +15,13 @@ const projects = [
     emi: "EMI options from ₹39,700/month with partner banks",
     map: "https://maps.google.com/maps?q=11.3823929,78.8170853&z=15&output=embed",
     gallery: [
-	"assets/venbanagar/5.jpeg",
+		"assets/venbanagar/5.jpeg",
         "assets/venbanagar/1.jpeg",
-	"assets/venbanagar/2.jpeg",
-	"assets/venbanagar/3.jpeg",
-	"assets/venbanagar/4.jpeg",
-	"assets/venbanagar/6.jpg",
-	"assets/venbanagar/7.jpg"
+		"assets/venbanagar/2.jpeg",
+		"assets/venbanagar/3.jpeg",
+		"assets/venbanagar/4.jpeg",
+		"assets/venbanagar/6.jpg",
+		"assets/venbanagar/7.jpg"
     ],
     plots: [
       ["01", "1498.3 sq.ft", "Available"],
@@ -93,7 +93,7 @@ const projects = [
     emi: "EMI is NOT available",
     map: "https://maps.google.com/maps?q=11.3823929,78.8170853&z=15&output=embed",
     gallery: [
-	"assets/venbanagar/5.jpeg"
+		"assets/venbanagar/5.jpeg"
         
     ],
     plots: [
