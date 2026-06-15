@@ -4,7 +4,7 @@ const projects = [
     type: "residential",
     name: "Venba Nagar",
     location: "Krishnapuram Perambalur",
-    image:"assets/venbanagar/1.jpeg" ,
+    image:"assets/venbanagar/7.JPG" ,
     description: "Premium villa plots close to schools, and fast-developing residential neighbourhoods in Perambalur.",
     fullDescription: "Venba nagar is planned for refined Panchayat living with generous road widths, green pockets, and easy access to employment hubs. The community balances investment potential with calm, family-friendly surroundings.",
     amenities: ["Grand entry arch", "33 ft roads", "Parks", "Underground drainage", "Rainwater harvesting", "CCTV provision"],
@@ -15,7 +15,7 @@ const projects = [
     emi: "EMI options from ₹39,700/month with partner banks",
     map: "https://maps.google.com/maps?q=11.3823929,78.8170853&z=15&output=embed",
     gallery: [
-		"assets/venbanagar/7.JPG",
+		"assets/venbanagar/5.jpeg",
         "assets/venbanagar/1.jpeg",
 		"assets/venbanagar/2.jpeg",
 		"assets/venbanagar/3.jpeg",
