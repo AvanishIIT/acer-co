@@ -1448,11 +1448,7 @@ p {
   }
 
   .hero-3d {
-    right: -34px;
-    bottom: 118px;
-    width: min(78vw, 320px);
-    opacity: 0.44;
-    transform: rotateX(0deg) rotateY(0deg) scale(0.92);
+     display: none;
   }
 
   .plot-stage {
@@ -1497,9 +1493,11 @@ p {
   }
 
   .hero-panel {
-    right: 18px;
-    bottom: 86px;
-    grid-template-columns: 1fr;
+    position: relative;   /* ← takes it out of overlay */
+    right: auto;
+    bottom: auto;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 16px 18px 0;
     z-index: 3;
   }
 
