@@ -15,13 +15,13 @@ const projects = [
     emi: "EMI options from ₹39,700/month with partner banks",
     map: "https://maps.google.com/maps?q=11.3823929,78.8170853&z=15&output=embed",
     gallery: [
-		"assets/venbanagar/5.jpeg",
+		"assets/venbanagar/7.JPG",
         "assets/venbanagar/1.jpeg",
 		"assets/venbanagar/2.jpeg",
 		"assets/venbanagar/3.jpeg",
 		"assets/venbanagar/4.jpeg",
-		"assets/venbanagar/6.jpg",
-		"assets/venbanagar/7.jpg"
+		"assets/venbanagar/6.JPG",
+		"assets/venbanagar/7.JPG"
     ],
     plots: [
       ["01", "1498.3 sq.ft", "Available"],
@@ -82,7 +82,7 @@ const projects = [
     type: "industrial",
     name: "Industrial Shed",
     location: "Pollachi–Palladam State Highway",
-    image:"assets/venbanagar/7.jpg" ,
+    image:"assets/venbanagar/7.JPG" ,
     description: "5 Acre Industrial Property for Sale in Mettuvavi | 55,000 Sq Ft Industrial Shed Near Pollachi–Palladam State Highway.",
     fullDescription: "Discover a premium 5-acre industrial property in Mettuvavi, strategically located near the Pollachi–Palladam State Highway. The property features a 55,000 sq. ft. industrial shed, 100 HP power connection, and a reliable water source, making it ideal for manufacturing units, warehouses, logistics hubs, engineering industries, textile units, and commercial operations. With excellent road connectivity and ready-to-use infrastructure, this industrial facility offers outstanding investment potential and business growth opportunities in the rapidly developing Pollachi region.",
     amenities: ["Grand entry arch", "33 ft roads", "Parks", "Underground drainage", "Rainwater harvesting", "CCTV provision"],
